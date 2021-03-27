@@ -6,10 +6,14 @@ const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    font-family: Roboto, sans-serif;
+    font-family: Poppins, sans-serif;
     margin: 0;
     min-height: 100vh;
     color: ${({ theme }) => theme.colors.black};
+  }
+  
+  html {
+    font-size: 18px;
   }
   
   a {
