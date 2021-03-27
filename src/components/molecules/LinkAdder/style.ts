@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import StateInputText from '@atoms/StateInputText';
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.form`
   display: flex;
   justify-content: center;
   max-width: 90vw;

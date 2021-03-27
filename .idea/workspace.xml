@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Add react-helmet primary for add fonts">
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/SecondView/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/SecondView/style.ts" afterDir="false" />
+    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="create link holder">
+      <change afterPath="$PROJECT_DIR$/src/hooks/useAddState.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/style.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/ColorButton/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/ColorButton/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/atoms/ColorButton/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/ColorButton/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/atoms/ColorButton/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/ColorButton/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/LinkAdder/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/LinkAdder/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/LinkAdder/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/LinkAdder/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/helpers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/types.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +123,7 @@
       <workItem from="1616683841806" duration="7822000" />
       <workItem from="1616828800127" duration="7373000" />
       <workItem from="1616844529499" duration="6207000" />
-      <workItem from="1616854382112" duration="2578000" />
+      <workItem from="1616854382112" duration="8784000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -198,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616830541912</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create link holder">
+      <created>1616857526168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616857526168</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +243,8 @@
     <MESSAGE value="Init theme" />
     <MESSAGE value="change name" />
     <MESSAGE value="Migrate header from other project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Migrate header from other project" />
+    <MESSAGE value="create link holder" />
+    <option name="LAST_COMMIT_MESSAGE" value="create link holder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

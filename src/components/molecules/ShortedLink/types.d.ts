@@ -1,4 +1,6 @@
 export interface ShortedLinkProps {
   longLink: string,
-  shortLink: string
+  isCopied: boolean,
+  index: number
+  onCopied: (key: number) => void
 }

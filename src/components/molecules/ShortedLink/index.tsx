@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import * as S from './style';
-import useBoolState from '@hooks/useBoolState';
-import { ShortedLinkProps } from '@molecules/ShortedLink/types';
 import * as H from './helpers';
+import { ShortedLinkProps } from '@molecules/ShortedLink/types';
 
-const ShortedLink = ({ longLink, shortLink }: ShortedLinkProps) => {
-  const [isCopied, changeIsCopied] = useBoolState();
+const ShortedLink = ({ longLink, isCopied, index, onCopied }: ShortedLinkProps) => {
+  const [shortUrl, setShortUrl] = useState('');
+  useEffect(() => {
+    H.shortLink(longLink).then(setShortUrl);
+  }, []);
+  const onButtonClick = () => {
+    navigator.clipboard.writeText(shortUrl);
+    onCopied(index);
+  };
   return (
     <S.Wrapper>
-      <S.LongLink href={longLink}>{longLink}</S.LongLink>
+      <S.Link href={longLink}>{H.shortString(longLink, 30)}</S.Link>
       <S.LeftWrapper>
-        <S.ShortLink href={shortLink}>{shortLink}</S.ShortLink>
-        <S.Button onClick={H.onButtonClick(shortLink, changeIsCopied)} isCopied={isCopied}>
+        <S.ShortLink href={shortUrl}>{shortUrl || '. . .'}</S.ShortLink>
+        <S.Button onClick={onButtonClick} isCopied={isCopied}>
           {isCopied ? 'Copied!' : 'Copy'}
         </S.Button>
       </S.LeftWrapper>
