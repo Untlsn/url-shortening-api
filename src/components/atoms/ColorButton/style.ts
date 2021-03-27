@@ -9,6 +9,7 @@ export const Wrapper = styled.button<{ round?: boolean }>`
   font-weight: bold;
   font-size: 1.1em;
   border-radius: ${({ round }) => round ? 2 : .3}em;
+  outline: none;
   
   ${whiteHover(.3)}
   &:hover {

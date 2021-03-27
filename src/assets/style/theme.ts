@@ -7,7 +7,7 @@ const theme: DefaultTheme = { // Add own themes (remember to copy it to style.d.
     cyan: '#2acfcf',
     darkViolet: '#3b3054',
     red: '#f46262',
-    gray: '#bfbfbf',
+    gray: '#ececec',
     grayishViolet: '#9d99a6',
     veryDarkBlue: '#35323e',
     veryDarkViolet: '#232127',

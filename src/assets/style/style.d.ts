@@ -4,11 +4,11 @@ declare module 'styled-components' { // Add own themes (remember to copy it to t
   export interface DefaultTheme {
     colors: {
       white: '#ffffff',
-      black: '#232127',
+      black: '#000000',
       cyan: '#2acfcf',
       darkViolet: '#3b3054',
       red: '#f46262',
-      gray: '#bfbfbf',
+      gray: '#ececec',
       grayishViolet: '#9d99a6',
       veryDarkBlue: '#35323e',
       veryDarkViolet: '#232127',
