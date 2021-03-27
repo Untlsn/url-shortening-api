@@ -1,5 +1,10 @@
 import styled, { css } from 'styled-components';
 
+export const Wrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 export const Hamburger = styled.div.attrs({
   gap: '.4em'
 })<{ gap?: string, clicked: boolean }>`
@@ -8,9 +13,9 @@ export const Hamburger = styled.div.attrs({
   transition: background-color 1s;
   
   &, &::before, &::after {
-    height: .1em;
-    width: 1.5em;
-    background-color: ${({ theme }) => theme.colors.black};
+    height: .15em;
+    width: 1.3em;
+    background-color: ${({ theme }) => theme.colors.grayishViolet};
   }
   &::after, &::before {
     content: '';

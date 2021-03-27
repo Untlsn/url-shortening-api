@@ -2,22 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Add react-helmet primary for add fonts">
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/DesktopNav/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/DesktopNav/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/DesktopNav/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/MobileNav/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/MobileNav/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/MobileNav/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Menu/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Menu/desktop/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Menu/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Menu/mobile/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/Menu/mobile/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Header/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/isMobile.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/LinkData.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/illustration-working.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/style/reusable.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/ColorButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/ColorButton/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/ColorButton/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/StateInputText/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/StateInputText/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/TextButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/TextButton/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/TextButton/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/ButtonWrapper/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/ButtonWrapper/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/GetStarted/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/GetStarted/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/LinkAdder/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/LinkAdder/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/FirstView/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/FirstView/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/Global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/Global.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/style.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/style.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/DesktopNav/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/DesktopNav/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/MobileNav/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/MobileNav/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/MobileNav/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/MobileNav/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/atoms/MobileNav/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/MobileNav/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Menu/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Menu/data.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Menu/desktop/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Menu/desktop/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Menu/mobile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Menu/mobile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/Menu/mobile/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Menu/mobile/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/Style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/Style.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +48,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -64,7 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/atoms/TextButton" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,9 +99,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\atoms\TextButton" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\atoms" />
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\assets\icons" />
       <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\molecules" />
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\atoms" />
       <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\organisms" />
     </key>
   </component>
@@ -120,7 +144,8 @@
       <workItem from="1616570141631" duration="344000" />
       <workItem from="1616661074034" duration="3033000" />
       <workItem from="1616683841806" duration="7822000" />
-      <workItem from="1616828800127" duration="1626000" />
+      <workItem from="1616828800127" duration="7373000" />
+      <workItem from="1616844529499" duration="6207000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -185,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616829475092</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Migrate header from other project">
+      <created>1616830541912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616830541912</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +257,8 @@
     <MESSAGE value="Add react-helmet primary for add fonts" />
     <MESSAGE value="Init theme" />
     <MESSAGE value="change name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change name" />
+    <MESSAGE value="Migrate header from other project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate header from other project" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

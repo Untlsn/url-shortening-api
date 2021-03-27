@@ -7,6 +7,8 @@ const StyleProvider = ({ children, fonts }: { children: any, fonts: string[] }) 
   return (
     <>
       <Helmet>
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         {fonts.map(
           (font, key) => <link rel='stylesheet' href={font} key={key} />
