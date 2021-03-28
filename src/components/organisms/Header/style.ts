@@ -6,7 +6,7 @@ import LogoSrc from '@assets/icons/logo.svg';
 export const Wrapper = styled(PagView)`
   position: fixed;
   top: 0;
-  z-index: 10;
+  z-index: 100;
   height: 5em;
   display: flex;
   align-items: center;

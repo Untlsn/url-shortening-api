@@ -58,7 +58,7 @@ export const Icon = styled.div<{ src: string }>`
     margin: auto;
   }
   &::before {
-    background-color: ${({ theme }) => theme.colors.veryDarkBlue};
+    background-color: ${({ theme }) => theme.colors.darkViolet};
     border-radius: 100%;
     height: 100%;
     width:  100%;

@@ -7,6 +7,7 @@ export const Wrapper = styled(PagView)`
   align-items: center;  
   height: 100vh;
   padding-top: 4em;
+  padding-bottom: 3em;
   @media (orientation: portrait) {
     grid-template-rows: 1fr 1fr;
   }

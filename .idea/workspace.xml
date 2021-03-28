@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Create data tiles">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-brand-recognition.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-detailed-records.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-fully-customizable.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/iconDataIcons.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/TitledText/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/atoms/TitledText/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/IconData/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/IconData/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/molecules/IconData/types.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/LastView/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/LastView/style.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/bg-boost-desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/icon-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/Contacts/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/LittleList/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/LittleList/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/Footer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/organisms/Footer/style.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/GetStarted/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/GetStarted/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/atoms/TitledText/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/LinkAdder/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/LinkAdder/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/LinkAdder/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/LinkAdder/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/helpers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/helpers.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/ShortedLink/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/ShortedLink/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/FirstView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/FirstView/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/LinkPropmpter/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/SecondView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SecondView/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/organisms/SecondView/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/SecondView/style.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useAddState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/molecules/IconData/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/IconData/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/FirstView/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/FirstView/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/Header/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/LastView/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/LastView/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/organisms/LastView/style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/organisms/LastView/style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,9 +87,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\assets\icons" />
+      <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\organisms" />
       <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\atoms" />
       <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\molecules" />
-      <recent name="D:\Programing-Project\JavaScript\Gatsby\url-shortening-api\src\components\organisms" />
     </key>
   </component>
   <component name="RunManager">
@@ -141,7 +133,7 @@
       <workItem from="1616915985160" duration="923000" />
       <workItem from="1616914296635" duration="432000" />
       <workItem from="1616914898125" duration="1098000" />
-      <workItem from="1616920410266" duration="3436000" />
+      <workItem from="1616920410266" duration="6248000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -227,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616865499885</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Create data tiles">
+      <created>1616923895687</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616923895687</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
