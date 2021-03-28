@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Fix Footer">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/molecules/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/molecules/Menu/index.tsx" afterDir="false" />
+    <list default="true" id="4ccf6aaf-4238-472c-9735-bf8b112eb091" name="Default Changelist" comment="Fix 'window is not defined'">
+      <change beforePath="$PROJECT_DIR$/src/helpers/isMobile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/isMobile.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <workItem from="1616915985160" duration="923000" />
       <workItem from="1616914296635" duration="432000" />
       <workItem from="1616914898125" duration="1098000" />
-      <workItem from="1616920410266" duration="7855000" />
+      <workItem from="1616920410266" duration="8082000" />
     </task>
     <task id="LOCAL-00001" summary="Create Template">
       <created>1616439432018</created>
@@ -231,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616928036850</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fix 'window is not defined'">
+      <created>1616928314183</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1616928314183</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +284,8 @@
     <MESSAGE value="Crate footer" />
     <MESSAGE value="Save in local" />
     <MESSAGE value="Fix Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Footer" />
+    <MESSAGE value="Fix 'window is not defined'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix 'window is not defined'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
