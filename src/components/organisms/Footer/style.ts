@@ -4,8 +4,14 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.veryDarkViolet};
   color: white;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
+  @media (orientation: landscape) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 4em;
+  }
 `;
 export const Image = styled.img.attrs({ alt: '' })`
   filter: brightness(100);

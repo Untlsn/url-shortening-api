@@ -6,6 +6,9 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   height: 10em;
   gap: 1em;
+  @media (orientation: landscape) {
+    align-items: flex-start;
+  }
 `;
 export const SingleContact = styled.a<{ imgSrc: string }>`
   display: block;

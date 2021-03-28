@@ -6,6 +6,9 @@ export const Wrapper = styled.div`
   align-items: center;
   text-align: center;
   font-size: .9em;
+  h3 {
+    margin-top: 0;
+  }
 `;
 
 export const List = styled.ul`

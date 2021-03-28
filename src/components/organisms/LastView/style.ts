@@ -21,7 +21,7 @@ export const TitledText = styled(TitledTextBody)`
   align-items: center;
   width: 100%;
   h1 {
-    font-size: 2.5em;
+    font-size: 1.8em;
     margin-bottom: 0;
     color: white;
     @media (orientation: portrait){

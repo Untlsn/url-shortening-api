@@ -5,6 +5,9 @@ export const Href = styled.a`
   &:hover {
     cursor: pointer;
   }
+  @media (orientation: landscape){
+    text-align: left;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -37,6 +40,7 @@ export const Wrapper = styled.div`
 export const LeftWrapper = styled.div`
   text-align: right;
   display: flex;
+  justify-content: right;
   gap: .5em;
   @media (orientation: portrait) {
     text-align: left;
