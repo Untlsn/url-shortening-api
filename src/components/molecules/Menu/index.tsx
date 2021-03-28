@@ -6,8 +6,9 @@ import useBoolState from '@hooks/useBoolState';
 import isMobile from '@helpers/isMobile';
 
 const Menu = () => {
-  const [isVertical, changeOrientation] = useBoolState(isMobile());
+  const [isVertical, changeOrientation] = useBoolState();
   React.useEffect(() => {
+    changeOrientation(isMobile());
     const resize = () => changeOrientation(isMobile());
     window.addEventListener('resize', resize);
   }, []);
