@@ -3,4 +3,5 @@ export interface ShortedLinkProps {
   isCopied: boolean,
   index: number
   onCopied: (key: number) => void
+  onCorrupt: (index: number) => void
 }

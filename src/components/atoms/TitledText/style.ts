@@ -14,16 +14,17 @@ export const Wrapper = styled.div`
     align-items: center;
   }
 `;
-export const BigText = styled.div`
+export const BigText = styled.h1`
   font-size: 4em;
   font-weight: bold;
   line-height: 1em;
+  letter-spacing: -.05em;
   
   @media (orientation: portrait) {
     font-size: 2.5em;
   }
 `;
-export const SmallText = styled.div`
+export const SmallText = styled.p`
   color: ${({ theme }) => theme.colors.grayishViolet};
   font-size: 1.1em;
 `;

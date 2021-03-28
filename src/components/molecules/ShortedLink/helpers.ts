@@ -1,10 +1,13 @@
 export const shortLink = async (fullLink: string) => {
-  return new Promise<string>((res) => {
+  return new Promise<string>((res, rej) => {
     fetch(`https://api.shrtco.de/v2/shorten?url=${fullLink}`)
       .then((data) => data.json())
-      .then(({ result }) => result.full_short_link)
-      .then(res)
-      .catch(console.log);
+      .then((data) => {
+        if(!data.ok) rej('link don\'t exist');
+        return data;
+      })
+      .then(({ result }) => result?.full_short_link)
+      .then(res);
   });
 };
 

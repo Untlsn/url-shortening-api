@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import ColorButton from '@atoms/ColorButton';
 
-export const Link = styled.a`
+export const Href = styled.a`
   &:hover {
     cursor: pointer;
   }
@@ -43,7 +43,7 @@ export const LeftWrapper = styled.div`
     flex-direction: column;
   }
 `;
-export const ShortLink = styled(Link)`
+export const ShortLink = styled(Href)`
   color: ${({ theme }) => theme.colors.cyan};
 `;
 export const Button = styled(ColorButton)<{ isCopied: boolean }>`
